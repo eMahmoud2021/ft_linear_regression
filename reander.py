@@ -5,7 +5,6 @@ from linear_regression.parseing import parse_data, parse_model
 
 def show_cost(mileage, price, theta0, theta1):
 
-    # Créer le tracé
     fig, (ax1, ax2) = plt.subplots(
         1, 2, constrained_layout=True,
         figsize=(16, 8))
